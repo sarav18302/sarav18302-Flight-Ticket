@@ -1,0 +1,74 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #3a7bd5;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+  /* Recommended Flights Styles */
+  .recommended-flights {
+    margin-top: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Filter and Search Styles */
+  .filter-search {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .filter-options {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .sort-options {
+    margin-left: auto;
+  }
+  
+  /* Search Results Styles */
+  .search-results {
+    margin-top: 20px;
+  }
+  
+  .search-results .card {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
