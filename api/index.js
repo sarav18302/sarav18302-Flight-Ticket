@@ -14,7 +14,7 @@ const app = express();
 const port = 4000;
 const corsConfig = {
     credentials: true,
-    origin: true,
+    origin: ["http://localhost:3000","https://flightticket.onrender.com"],
 };
 app.use(cors(corsConfig));
 app.use(express.json());
